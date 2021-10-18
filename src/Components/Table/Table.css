@@ -1,0 +1,8 @@
+.table_details table thead tr :first-child {
+    border: 1px solid white;
+    border-right: 1px solid #dee2e6;
+}
+
+.table_details .table> :not(:last-child)> :last-child>* {
+    border-bottom: 1px solid #dee2e6;
+}
